@@ -7,9 +7,9 @@
             "name": "Application 1"
         },
         {
-            "key": "app1",
+            "key": "app2",
             "repo": "repo2",
-            "ref": "developx",
+            "ref": "develop",
             "name": "Application 1"
         }
     ]
