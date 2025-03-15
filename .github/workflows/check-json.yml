@@ -15,6 +15,6 @@ jobs:
             - name: Check apps
               uses: divyantrathore/json-validator@main
               with:
-                  JSON_PATH: files/apps.json
-                  SCHEMA_PATH: files/schema.json
+                  JSON_PATH: ./files/apps.json
+                  SCHEMA_PATH: ./schema/schema.json
                   UNIQUE_KEYS: key, name
