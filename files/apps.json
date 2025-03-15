@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "key": "app1",
+            "repo": "repo1",
+            "ref": "main",
+            "name": "Application 1"
+        },
+        {
+            "key": "app1",
+            "repo": "repo2",
+            "ref": "develop",
+            "name": "Application 2"
+        }
+    ]
+}

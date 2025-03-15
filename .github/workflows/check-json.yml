@@ -1,0 +1,20 @@
+name: 'Check JSON'
+
+on:
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    check-apps-json:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
+            - name: Check apps
+              uses: divyantrathore/json-validator@main
+              with:
+                  JSON_PATH: files/apps.json
+                  SCHEMA_PATH: files/schema.json
+                  UNIQUE_KEYS: key, name
