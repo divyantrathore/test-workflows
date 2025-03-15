@@ -10,7 +10,7 @@
             "key": "app1",
             "repo": "repo2",
             "ref": "develop",
-            "name": "Application 2"
+            "name": "Application 1"
         }
     ]
 }
